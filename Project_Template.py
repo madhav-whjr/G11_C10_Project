@@ -1,6 +1,10 @@
 import pygame
 pygame.init() 
-#Create variables as required
+
+# Set the value of johnx to 190
+johnx = 
+# Set the value of johny to 150
+johny = 
 
 size = (400, 400)
 screen = pygame.display.set_mode(size)
@@ -20,11 +24,13 @@ while carryOn:
       #change "carryOn" to False
       carryOn = False 
   screen.blit(bedroom_scaled,(0,0))
-  #Code for user input
-  
-  
-  
-  
+  # Check for the user input
+  if event.type == pygame.KEYDOWN:
+        # Check if event.key is left key
+        if event.key ==           :
+                # Decrement johnx by 5 units
+                johnx =   
+              
   screen.blit(john_scaled,(johnx,johny))
   pygame.display.flip()
 pygame.quit()
