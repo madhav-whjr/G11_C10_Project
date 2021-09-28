@@ -8,9 +8,9 @@ johny =
 
 size = (400, 400)
 screen = pygame.display.set_mode(size)
-bedroom=pygame.image.load("Assets/room.png").convert()
+bedroom=pygame.image.load("room.png").convert()
 bedroom_scaled=pygame.transform.smoothscale(bedroom,(600,400))
-john=pygame.image.load("Assets/john.png").convert_alpha()
+john=pygame.image.load("john.png").convert_alpha()
 john_scaled=pygame.transform.smoothscale(john,(300,300))
 pygame.display.set_caption("Project C10")
 #Create "carryOn" variable and set to true
